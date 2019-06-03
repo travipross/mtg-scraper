@@ -1,4 +1,5 @@
 import re
+import datetime
 from requests_html import HTMLSession
 
 
@@ -39,3 +40,4 @@ def scrape_and_update(collection):
         card.update(stats_dict)
         card.update({"current_price": paper_price})
         card.update({"url": url})
+        card.update({"time_updated": datetime.datetime.today().strftime("%Y-%m-%d_%H:%M:%S")})

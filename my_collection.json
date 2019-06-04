@@ -54,5 +54,278 @@
         "time_updated": "2019-06-03_22:26:47",
         "url": "https://www.mtggoldfish.com/price//Kaladesh+Inventions:Foil/Paradox+Engine#paper",
         "weekly_change": 0.0
+    },
+    {
+        "foil": true,
+        "name": "Archive Trap",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Zendikar"
+    },
+    {
+        "foil": true,
+        "name": "Bojuka Bog",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Worldwake"
+    },
+    {
+        "foil": false,
+        "name": "Counterspell",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Unlimited Edition"
+    },
+    {
+        "foil": false,
+        "name": "Ob Nixilis, Unshackled",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Magic 2015 Core Set"
+    },
+    {
+        "foil": true,
+        "name": "Auramancer's Guise",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Planar Chaos"
+    },
+    {
+        "foil": false,
+        "name": "Chromatic Star",
+        "purchase_price": 0.0,
+        "quantity": 4,
+        "set": "Time Spiral"
+    },
+    {
+        "foil": false,
+        "name": "Smothering Tithe",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Ravnica Allegiance"
+    },
+    {
+        "foil": false,
+        "name": "Sunforger",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Commander 2016"
+    },
+    {
+        "foil": true,
+        "name": "Nissa, Genesis Mage",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Hour of Devestation"
+    },
+    {
+        "foil": false,
+        "name": "Finale of Glory",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "War of the Spark"
+    },
+    {
+        "foil": false,
+        "name": "God-Eternal Rhonas",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "War of the Spark"
+    },
+    {
+        "foil": false,
+        "name": "Ilharg, the Raze-Boar",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "War of the Spark"
+    },
+    {
+        "foil": false,
+        "name": "Master of Etherium",
+        "purchase_price": 0.0,
+        "quantity": 4,
+        "set": "Shards of Alara"
+    },
+    {
+        "foil": false,
+        "name": "Didgeridoo",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Homelands"
+    },
+    {
+        "foil": false,
+        "name": "Muddle the Mixture",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Ravnica City of Guilds"
+    },
+    {
+        "foil": false,
+        "name": "Search for Azcanta",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Ixalan"
+    },
+    {
+        "foil": false,
+        "name": "Spellseeker",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Battlebond"
+    },
+    {
+        "foil": false,
+        "name": "Sliver Overlord",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Scourge"
+    },
+    {
+        "foil": false,
+        "name": "Manamorphose",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Reki, the History of Kamigawa",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Saviors of Kamigawa"
+    },
+    {
+        "foil": false,
+        "name": "Boartusk Liege",
+        "purchase_price": 0.0,
+        "quantity": 2,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Beseech the Queen",
+        "purchase_price": 0.0,
+        "quantity": 2,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Elemental Mastery",
+        "purchase_price": 0.0,
+        "quantity": 2,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": true,
+        "name": "Memory Plunder",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Wound Reflection",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Sunken Ruins",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Shadowmoor"
+    },
+    {
+        "foil": false,
+        "name": "Chromatic Lantern",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Guilds of Ravnica"
+    },
+    {
+        "foil": false,
+        "name": "Skullclamp",
+        "purchase_price": 0.0,
+        "quantity": 3,
+        "set": "Darksteel"
+    },
+    {
+        "foil": false,
+        "name": "Walking Ballista",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Aether Revolt"
+    },
+    {
+        "foil": false,
+        "name": "Daretti, Scrap Savant",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Commander 2014"
+    },
+    {
+        "foil": false,
+        "name": "Mechanized Production",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Aether Revolt"
+    },
+    {
+        "foil": true,
+        "name": "Fabricate",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Magic 2010"
+    },
+    {
+        "foil": true,
+        "name": "Tezzeret, Master of the Bridge",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "War of the Spark"
+    },
+    {
+        "foil": false,
+        "name": "Mindbreak Trap",
+        "purchase_price": 0.0,
+        "quantity": 4,
+        "set": "Zendikar"
+    },
+    {
+        "foil": false,
+        "name": "Vanquisher's Banner",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Ixalan"
+    },
+    {
+        "foil": false,
+        "name": "Ashnod's Altar",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Fifth Edition"
+    },
+    {
+        "foil": false,
+        "name": "Arixmethes, Slumbering Isle",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Commander 2018"
+    },
+    {
+        "foil": false,
+        "name": "Sol Ring",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Commander 2018"
+    },
+    {
+        "foil": false,
+        "name": "Estrid's Invocation",
+        "purchase_price": 0.0,
+        "quantity": 1,
+        "set": "Commander 2018"
     }
 ]

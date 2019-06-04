@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Arcades, the Strategist",
+        "set": "Core Set 2019",
+        "foil": true,
+        "purchase_price": null
+    },
+    {
+        "name": "Winter Orb",
+        "set": "Unlimited Edition",
+        "foil": false,
+        "purchase_price": 1.35,
+        "quantity": 2
+    },
+    {
+        "name": "Meekstone",
+        "set": "Unlimited Edition",
+        "foil": false
+    },
+    {
+        "name": "Paradox Engine",
+        "set": "Kaladesh Inventions",
+        "foil": true
+    }
+]
+    

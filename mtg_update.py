@@ -1,7 +1,7 @@
 import json
 import argparse
 from mtg_scraper_utils import scrape_and_update
-
+import pandas as pd
 
 a = argparse.ArgumentParser()
 a.add_argument("-p", "--path-to-collection", help="Path to json file containing data", default="my_collection.json")
@@ -19,5 +19,17 @@ except FileNotFoundError as e:
     exit(1)
 
 # Modify imported dictionary with new data
-scrape_and_update(collection)
-print(json.dumps(collection, indent=4, sort_keys=True))
+updated_list = scrape_and_update(collection)
+
+print("%d Cards have changed in value since the file was updated. " % updated_list.count(True))
+
+# Overwrite original file with new information
+overwrite = True
+if overwrite and updated_list.count(True) > 0:
+    with open(path, 'w') as f:
+        json.dump(collection, f, indent=4, sort_keys=True)
+
+# convert to pandas data frame for easier number crunchin'
+df = pd.DataFrame(collection)
+
+# print(json.dumps(collection, indent=4, sort_keys=True))

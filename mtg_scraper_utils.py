@@ -25,6 +25,7 @@ def build_url_from_card_name(card_dict):
 
 def scrape_and_update(collection):
     html_session = HTMLSession()
+    updated = []
     for card in collection:
         url = build_url_from_card_name(card)
         print("Scraping: " + url)
@@ -37,7 +38,16 @@ def scrape_and_update(collection):
         stats_matches = re.findall(stats_match_pattern, stats_text).pop()
         stats_dict = dict(zip(["daily_change", "weekly_change", "highest_price", "lowest_price"],
                               map(float, list(stats_matches))))
-        card.update(stats_dict)
-        card.update({"current_price": paper_price})
-        card.update({"url": url})
-        card.update({"time_updated": datetime.datetime.today().strftime("%Y-%m-%d_%H:%M:%S")})
+
+        # if current entries match the values scraped, don't bother updating
+        if {k: card[k] for k in stats_dict.keys() if k in card} == stats_dict:
+            updated.append(False)
+        else:
+            card.update(stats_dict)
+            card.update({"current_price": paper_price})
+            card.update({"url": url})
+            card.update({"time_updated": datetime.datetime.today().strftime("%Y-%m-%d_%H:%M:%S")})
+            card.update({"quantity": card.get("quantity", 1)})
+            card.update({"purchase_price": card.get("purchase_price")})
+            updated.append(True)
+    return updated

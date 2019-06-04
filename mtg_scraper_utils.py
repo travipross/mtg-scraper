@@ -40,6 +40,7 @@ def scrape_and_update(collection):
 
             paper_price = float(re.findall("PAPER\n(.*)", paper_price_text).pop())
             stats_match_pattern = ".*Daily Change\n(.+).*\nWeekly Change\n(.+).*\nHighest Price\n(.+).*\nLowest Price\n(.+).*"
+            stats_text = stats_text.replace(',', '')
             stats_matches = re.findall(stats_match_pattern, stats_text).pop()
             stats_dict = dict(zip(["daily_change", "weekly_change", "highest_price", "lowest_price"],
                                   map(float, list(stats_matches))))

@@ -1,6 +1,9 @@
 import json
 import argparse
 import os
+import shutil
+
+# TODO: Make it harder to overwrite data / add a way to append to existing data
 
 # Parse arguments
 a = argparse.ArgumentParser()
@@ -25,6 +28,10 @@ if os.path.exists(path):
     if resp not in ["y", "yes"]:
         print("Exiting...")
         exit(1)
+    else:
+        # create a backup now before messing anything else up
+        print("Okay fine, but I'm backing your shit up.")
+        shutil.copy(path, path+'.backup')
 
 print("File to be created/modified: %s" % path)
 

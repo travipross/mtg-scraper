@@ -21,15 +21,28 @@ except FileNotFoundError as e:
 # Modify imported dictionary with new data
 updated_list = scrape_and_update(collection)
 
-print("%d Cards have changed in value since the file was updated. " % updated_list.count(True))
+print("New data exists for %d cards" % updated_list.count(True))
 
 # Overwrite original file with new information
-overwrite = True
 if overwrite and updated_list.count(True) > 0:
     with open(path, 'w') as f:
         json.dump(collection, f, indent=4, sort_keys=True)
+else:
+    print(json.dumps(collection, indent=4, sort_keys=True))
 
 # convert to pandas data frame for easier number crunchin'
 df = pd.DataFrame(collection)
 
-# print(json.dumps(collection, indent=4, sort_keys=True))
+
+top3 = df.sort_values("current_price", ascending=False)
+print("---------- Top cards by value ----------")
+for i in range(3):
+    print("#%d\t$%0.2f USD\t%s - %s%s" % (i+1,
+                                        top3.current_price.iloc[i],
+                                        top3.name.iloc[i],
+                                        top3.set.iloc[i],
+                                        (" (Foil)" if top3.foil.iloc[i] else "")
+                                        ))
+print("----------------------------------------")
+print("Total value of card collection: $%0.2f USD" % (df.current_price * df.quantity).sum())
+print("Most duplicates: %s = qty %d" % (df.name.loc[df.quantity.idxmax()], df.quantity.max()))

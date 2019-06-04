@@ -20,12 +20,14 @@ if path is None:
     path = os.path.join(filedir, filename)
 path = os.path.expanduser(path)
 
+print("File to be modified: %s" % path)
+
 # If file exists, give user option to exit or overwrite
 if os.path.exists(path):
-    resp = input("File exists: overwrite? (y/n) ").lower()
-    while resp not in ["y", "n", "yes", "no"]:
-        resp = input("Invalid response: overwrite? (y/n) ").lower()
-    if resp not in ["y", "yes"]:
+    resp = input("File exists: (o)verwrite/(a)ppend/(c)ancel? ").lower()
+    while resp not in ["o", "c", "a"]:
+        resp = input("Invalid response: (o)verwrite/(a)ppend/(c)ancel? ").lower()
+    if resp == "c":
         print("Exiting...")
         exit(1)
     else:
@@ -33,11 +35,16 @@ if os.path.exists(path):
         print("Okay fine, but I'm backing your shit up.")
         shutil.copy(path, path+'.backup')
 
-print("File to be created/modified: %s" % path)
+        if resp == "a":
+            with open(path) as f:
+                collection = json.load(f)
+                print("Loaded collection with %d entries" % len(collection))
+        else: # overwrite mode
+            collection = []
+            print("Starting with empty collection and overwriting file")
 
 # loop and prompt user for card info
 more = True
-collection = []
 while True:
     name = input("Please enter card name (case-sensitive): ")
     set = input("Please enter card set (case-sensitive): ")
@@ -61,7 +68,7 @@ while True:
 
 print(json.dumps(collection, indent=4, sort_keys=True))
 
-if input("Does everything look okay? (y/n): ").lower() in ["yes", "y"]:
+if input("Does everything look okay? That's the full file. (y/n): ").lower() in ["yes", "y"]:
     with open(path, 'w') as f:
         json.dump(collection, f, indent=4, sort_keys=True)
     print("Written file to %s" % path)

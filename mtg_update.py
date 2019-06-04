@@ -34,7 +34,7 @@ else:
 # convert to pandas data frame for easier number crunchin'
 df = pd.DataFrame(collection)
 
-
+# summarize results
 top3 = df.sort_values("current_price", ascending=False)
 print("---------- Top cards by value ----------")
 for i in range(3):
@@ -47,3 +47,5 @@ for i in range(3):
 print("----------------------------------------")
 print("Total value of card collection: $%0.2f USD" % (df.current_price * df.quantity).sum())
 print("Most duplicates: %s = qty %d" % (df.name.loc[df.quantity.idxmax()], df.quantity.max()))
+
+# TODO: Reorganize to make scraping optional and just read from file

@@ -33,6 +33,7 @@ def scrape_and_update(collection):
         r = html_session.get(url)
         stats_text = r.html.find(".price-card-statistics-paper").pop().text
         paper_price_text = r.html.find(".price-box.paper").pop().text
+        paper_price_text = paper_price_text.replace(",", "")  # remove comma from the pricey bois
 
         paper_price = float(re.findall("PAPER\n(.*)", paper_price_text).pop())
         stats_match_pattern = ".*Daily Change\n(.+).*\nWeekly Change\n(.+).*\nHighest Price\n(.+).*\nLowest Price\n(.+).*"

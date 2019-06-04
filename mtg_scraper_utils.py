@@ -1,6 +1,5 @@
 import re
 import datetime
-from requests_html import HTMLSession
 
 
 def encode_for_url_without_escapes(card_name):
@@ -24,6 +23,7 @@ def build_url_from_card_name(card_dict):
 
 
 def scrape_and_update(collection):
+    from requests_html import HTMLSession
     html_session = HTMLSession()
     updated = []
     # TODO: Make this parallellized somehow (multithreading with Queue? Or AsyncHTMLSession?)

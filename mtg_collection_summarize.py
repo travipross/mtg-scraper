@@ -29,7 +29,7 @@ except FileNotFoundError as e:
 # Modify imported dictionary with new data if instructed to do so
 if update_collection:
     updated_list = scrape_and_update(collection)
-    print("New data exists for %d cards" % updated_list.count(True))
+    print("Cards with updated data: %d (errors: %d)" % (updated_list.count(True), updated_list.count(None)))
 
     # Overwrite original file with new information
     if overwrite and updated_list.count(True) > 0:
@@ -45,7 +45,7 @@ df = pd.DataFrame(collection)
 
 # summarize results
 top3 = df.sort_values("current_price", ascending=False)
-print("---------- Top cards by value ----------")
+print("\n---------- Top cards by value ----------")
 for i in range(3):
     print("#%d\t$%0.2f USD\t%s - %s%s" % (i+1,
                                         top3.current_price.iloc[i],

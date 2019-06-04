@@ -13,6 +13,7 @@ overwrite = args.get("overwrite")
 # Open json file for updating
 try:
     with open(path, 'r') as f:
+        # TODO: Add some sort of validation for file since it's user-editable (jsonschema?)
         collection = json.load(f)
 except FileNotFoundError as e:
     print("File not found: %s" % path)

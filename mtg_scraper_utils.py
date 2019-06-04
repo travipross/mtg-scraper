@@ -26,6 +26,7 @@ def build_url_from_card_name(card_dict):
 def scrape_and_update(collection):
     html_session = HTMLSession()
     updated = []
+    # TODO: Make this parallellized somehow (multithreading with Queue? Or AsyncHTMLSession?)
     for card in collection:
         url = build_url_from_card_name(card)
         print("Scraping: " + url)

@@ -1,0 +1,58 @@
+[
+    {
+        "current_price": 20.79,
+        "daily_change": -0.46,
+        "foil": true,
+        "highest_price": 69.95,
+        "lowest_price": 14.44,
+        "name": "Arcades, the Strategist",
+        "purchase_price": null,
+        "quantity": 1,
+        "set": "Core Set 2019",
+        "time_updated": "2019-06-03_22:29:43",
+        "url": "https://www.mtggoldfish.com/price//Core+Set+2019:Foil/Arcades+the+Strategist#paper",
+        "weekly_change": -1.04
+    },
+    {
+        "current_price": 72.25,
+        "daily_change": 0.0,
+        "foil": false,
+        "highest_price": 97.47,
+        "lowest_price": 7.19,
+        "name": "Winter Orb",
+        "purchase_price": 1.35,
+        "quantity": 2,
+        "set": "Unlimited Edition",
+        "time_updated": "2019-06-03_22:26:46",
+        "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Winter+Orb#paper",
+        "weekly_change": 0.0
+    },
+    {
+        "current_price": 58.5,
+        "daily_change": 1.5,
+        "foil": false,
+        "highest_price": 65.63,
+        "lowest_price": 3.34,
+        "name": "Meekstone",
+        "purchase_price": null,
+        "quantity": 1,
+        "set": "Unlimited Edition",
+        "time_updated": "2019-06-03_22:26:46",
+        "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Meekstone#paper",
+        "weekly_change": 0.0
+    },
+    {
+        "current_price": 199.99,
+        "daily_change": 12.11,
+        "foil": true,
+        "highest_price": 199.99,
+        "lowest_price": 40.95,
+        "name": "Paradox Engine",
+        "purchase_price": null,
+        "quantity": 1,
+        "set": "Kaladesh Inventions",
+        "time_updated": "2019-06-03_22:26:47",
+        "url": "https://www.mtggoldfish.com/price//Kaladesh+Inventions:Foil/Paradox+Engine#paper",
+        "weekly_change": 0.0
+    }
+]

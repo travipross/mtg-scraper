@@ -1,16 +1,27 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import json
-
+import os
 
 with open("my_collection.json") as f:
     collection_list = json.load(f)
 
+client_secret_path = os.getenv("MTG_SECRET")
+if not client_secret_path:
+    print("Please set $MTG_SECRET environment variable to location of secret.json file")
+    exit(1)
 
-print("https://docs.google.com/spreadsheets/d/1VqBChGGDQH6f7ljv_zDVrw61sy2nrFjlX1WirEre1sM/edit?usp=sharing")
+print("Working on sheet: %s" %
+      "https://docs.google.com/spreadsheets/d/1VqBChGGDQH6f7ljv_zDVrw61sy2nrFjlX1WirEre1sM/edit?usp=sharing")
+
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
+try:
+    creds = ServiceAccountCredentials.from_json_keyfile_name(client_secret_path, scope)
+except FileNotFoundError as e:
+    print(e)
+    print("Please ensure credentials file exists in the specified location. ")
+    exit(1)
 client = gspread.authorize(creds)
 
 # Find a workbook by name and open the first sheet
@@ -23,7 +34,7 @@ print(list_of_vals)
 print(sheet.row_values(1))
 
 row_labels = {'name': 'Card Name',
-              'set': 'Card Set',
+              'card_set': 'Card Set',
               'foil': 'Is Foil?',
               'quantity': 'Quantity',
               'purchase_price': 'Purchase Price',

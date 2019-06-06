@@ -14,8 +14,8 @@
         "weekly_change": -0.54
     },
     {
-        "current_price": 70.61,
-        "daily_change": -1.64,
+        "current_price": 71.43,
+        "daily_change": -0.82,
         "foil": false,
         "highest_price": 97.47,
         "lowest_price": 7.19,
@@ -23,13 +23,13 @@
         "purchase_price": 1.35,
         "quantity": 2,
         "set": "Unlimited Edition",
-        "time_updated": "2019-06-06_11:00:27",
+        "time_updated": "2019-06-06_14:48:06",
         "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Winter+Orb#paper",
-        "weekly_change": -3.06
+        "weekly_change": -2.24
     },
     {
-        "current_price": 58.5,
-        "daily_change": 0.0,
+        "current_price": 59.99,
+        "daily_change": 1.49,
         "foil": false,
         "highest_price": 65.63,
         "lowest_price": 3.34,
@@ -37,9 +37,9 @@
         "purchase_price": null,
         "quantity": 1,
         "set": "Unlimited Edition",
-        "time_updated": "2019-06-06_11:00:27",
+        "time_updated": "2019-06-06_14:48:06",
         "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Meekstone#paper",
-        "weekly_change": 10.08
+        "weekly_change": 11.57
     },
     {
         "current_price": 175.96,
@@ -98,8 +98,8 @@
         "weekly_change": 0.46
     },
     {
-        "current_price": 4.99,
-        "daily_change": 0.02,
+        "current_price": 5.0,
+        "daily_change": 0.03,
         "foil": false,
         "highest_price": 5.27,
         "lowest_price": 0.78,
@@ -107,9 +107,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Magic 2015 Core Set",
-        "time_updated": "2019-06-06_11:00:28",
+        "time_updated": "2019-06-06_14:48:08",
         "url": "https://www.mtggoldfish.com/price//Magic+2015+Core+Set/Ob+Nixilis+Unshackled#paper",
-        "weekly_change": 0.07
+        "weekly_change": 0.08
     },
     {
         "current_price": 5.69,
@@ -140,8 +140,8 @@
         "weekly_change": -0.02
     },
     {
-        "current_price": 8.93,
-        "daily_change": -0.05,
+        "current_price": 8.98,
+        "daily_change": 0.0,
         "foil": false,
         "highest_price": 10.99,
         "lowest_price": 1.99,
@@ -149,9 +149,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Ravnica Allegiance",
-        "time_updated": "2019-06-06_11:00:29",
+        "time_updated": "2019-06-06_14:48:09",
         "url": "https://www.mtggoldfish.com/price//Ravnica+Allegiance/Smothering+Tithe#paper",
-        "weekly_change": -0.12
+        "weekly_change": -0.07
     },
     {
         "current_price": 6.73,
@@ -168,8 +168,8 @@
         "weekly_change": -0.08
     },
     {
-        "current_price": 3.88,
-        "daily_change": 0.02,
+        "current_price": 3.89,
+        "daily_change": 0.03,
         "foil": true,
         "highest_price": 8.98,
         "lowest_price": 2.99,
@@ -177,27 +177,27 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Hour of Devastation",
-        "time_updated": "2019-06-06_11:00:29",
+        "time_updated": "2019-06-06_14:48:10",
         "url": "https://www.mtggoldfish.com/price//Hour+of+Devastation:Foil/Nissa+Genesis+Mage#paper",
-        "weekly_change": -0.03
+        "weekly_change": -0.02
     },
     {
-        "current_price": 2.2,
-        "daily_change": -0.02,
+        "current_price": 2.21,
+        "daily_change": -0.01,
         "foil": false,
         "highest_price": 7.72,
-        "lowest_price": 2.2,
+        "lowest_price": 2.21,
         "name": "Finale of Glory",
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "War of the Spark",
-        "time_updated": "2019-06-06_11:00:29",
+        "time_updated": "2019-06-06_14:48:10",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/Finale+of+Glory#paper",
-        "weekly_change": -0.04
+        "weekly_change": -0.03
     },
     {
-        "current_price": 5.29,
-        "daily_change": -0.04,
+        "current_price": 5.33,
+        "daily_change": 0.0,
         "foil": false,
         "highest_price": 10.49,
         "lowest_price": 5.0,
@@ -205,23 +205,23 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "War of the Spark",
-        "time_updated": "2019-06-06_11:00:29",
+        "time_updated": "2019-06-06_14:48:10",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/God-Eternal+Rhonas#paper",
-        "weekly_change": -0.24
+        "weekly_change": -0.2
     },
     {
-        "current_price": 7.49,
-        "daily_change": -0.04,
+        "current_price": 7.5,
+        "daily_change": -0.03,
         "foil": false,
         "highest_price": 19.98,
-        "lowest_price": 7.49,
+        "lowest_price": 7.5,
         "name": "Ilharg, the Raze-Boar",
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "War of the Spark",
-        "time_updated": "2019-06-06_11:00:30",
+        "time_updated": "2019-06-06_14:48:10",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/Ilharg+the+Raze-Boar#paper",
-        "weekly_change": -0.41
+        "weekly_change": -0.4
     },
     {
         "current_price": 4.25,
@@ -252,8 +252,8 @@
         "weekly_change": -0.01
     },
     {
-        "current_price": 3.19,
-        "daily_change": 0.02,
+        "current_price": 3.13,
+        "daily_change": -0.04,
         "foil": false,
         "highest_price": 9.97,
         "lowest_price": 0.49,
@@ -261,9 +261,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Ravnica City of Guilds",
-        "time_updated": "2019-06-06_11:00:32",
+        "time_updated": "2019-06-06_14:48:11",
         "url": "https://www.mtggoldfish.com/price//Ravnica+City+of+Guilds/Muddle+the+Mixture#paper",
-        "weekly_change": 0.09
+        "weekly_change": 0.03
     },
     {
         "current_price": 17.03,
@@ -294,8 +294,8 @@
         "weekly_change": 0.2
     },
     {
-        "current_price": 36.99,
-        "daily_change": -0.86,
+        "current_price": 36.9,
+        "daily_change": -0.95,
         "foil": false,
         "highest_price": 47.49,
         "lowest_price": 3.89,
@@ -303,13 +303,13 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Scourge",
-        "time_updated": "2019-06-06_11:00:32",
+        "time_updated": "2019-06-06_14:48:12",
         "url": "https://www.mtggoldfish.com/price//Scourge/Sliver+Overlord#paper",
-        "weekly_change": -4.67
+        "weekly_change": -4.76
     },
     {
-        "current_price": 17.03,
-        "daily_change": 0.03,
+        "current_price": 17.05,
+        "daily_change": 0.05,
         "foil": false,
         "highest_price": 25.0,
         "lowest_price": 1.93,
@@ -317,9 +317,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Shadowmoor",
-        "time_updated": "2019-06-06_11:00:32",
+        "time_updated": "2019-06-06_14:48:12",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Manamorphose#paper",
-        "weekly_change": -0.03
+        "weekly_change": -0.01
     },
     {
         "current_price": 7.49,
@@ -336,8 +336,8 @@
         "weekly_change": -0.01
     },
     {
-        "current_price": 4.99,
-        "daily_change": 0.0,
+        "current_price": 4.98,
+        "daily_change": -0.01,
         "foil": false,
         "highest_price": 5.35,
         "lowest_price": 2.24,
@@ -345,9 +345,9 @@
         "purchase_price": 0.0,
         "quantity": 2,
         "set": "Shadowmoor",
-        "time_updated": "2019-06-06_11:00:33",
+        "time_updated": "2019-06-06_14:48:13",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Boartusk+Liege#paper",
-        "weekly_change": 0.0
+        "weekly_change": -0.01
     },
     {
         "current_price": 5.49,
@@ -420,8 +420,8 @@
         "weekly_change": 0.08
     },
     {
-        "current_price": 7.19,
-        "daily_change": 0.0,
+        "current_price": 7.2,
+        "daily_change": 0.01,
         "foil": false,
         "highest_price": 10.24,
         "lowest_price": 3.49,
@@ -429,13 +429,13 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Guilds of Ravnica",
-        "time_updated": "2019-06-06_11:00:33",
+        "time_updated": "2019-06-06_14:48:15",
         "url": "https://www.mtggoldfish.com/price//Guilds+of+Ravnica/Chromatic+Lantern#paper",
-        "weekly_change": 0.04
+        "weekly_change": 0.05
     },
     {
-        "current_price": 5.2,
-        "daily_change": -0.03,
+        "current_price": 5.21,
+        "daily_change": -0.02,
         "foil": false,
         "highest_price": 5.55,
         "lowest_price": 1.8,
@@ -443,13 +443,13 @@
         "purchase_price": 0.0,
         "quantity": 3,
         "set": "Darksteel",
-        "time_updated": "2019-06-06_11:00:34",
+        "time_updated": "2019-06-06_14:48:16",
         "url": "https://www.mtggoldfish.com/price//Darksteel/Skullclamp#paper",
-        "weekly_change": -0.18
+        "weekly_change": -0.17
     },
     {
-        "current_price": 16.35,
-        "daily_change": 0.17,
+        "current_price": 16.39,
+        "daily_change": 0.21,
         "foil": false,
         "highest_price": 24.0,
         "lowest_price": 2.86,
@@ -457,9 +457,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Aether Revolt",
-        "time_updated": "2019-06-06_11:00:34",
+        "time_updated": "2019-06-06_14:48:16",
         "url": "https://www.mtggoldfish.com/price//Aether+Revolt/Walking+Ballista#paper",
-        "weekly_change": 0.07
+        "weekly_change": 0.11
     },
     {
         "current_price": 3.27,
@@ -476,8 +476,8 @@
         "weekly_change": 0.0
     },
     {
-        "current_price": 3.89,
-        "daily_change": -0.06,
+        "current_price": 3.9,
+        "daily_change": -0.05,
         "foil": false,
         "highest_price": 6.94,
         "lowest_price": 1.98,
@@ -485,13 +485,13 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Aether Revolt",
-        "time_updated": "2019-06-06_11:00:35",
+        "time_updated": "2019-06-06_14:48:17",
         "url": "https://www.mtggoldfish.com/price//Aether+Revolt/Mechanized+Production#paper",
-        "weekly_change": 0.0
+        "weekly_change": 0.01
     },
     {
-        "current_price": 11.06,
-        "daily_change": -0.91,
+        "current_price": 11.47,
+        "daily_change": -0.5,
         "foil": true,
         "highest_price": 12.1,
         "lowest_price": 3.25,
@@ -499,9 +499,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Magic 2010",
-        "time_updated": "2019-06-06_11:00:35",
+        "time_updated": "2019-06-06_14:48:17",
         "url": "https://www.mtggoldfish.com/price//Magic+2010:Foil/Fabricate#paper",
-        "weekly_change": -0.46
+        "weekly_change": -0.05
     },
     {
         "current_price": 16.99,
@@ -532,8 +532,8 @@
         "weekly_change": -0.07
     },
     {
-        "current_price": 4.4,
-        "daily_change": 0.01,
+        "current_price": 4.43,
+        "daily_change": 0.04,
         "foil": false,
         "highest_price": 5.23,
         "lowest_price": 2.03,
@@ -541,9 +541,9 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Ixalan",
-        "time_updated": "2019-06-06_11:00:35",
+        "time_updated": "2019-06-06_14:48:18",
         "url": "https://www.mtggoldfish.com/price//Ixalan/Vanquishers+Banner#paper",
-        "weekly_change": -0.09
+        "weekly_change": -0.06
     },
     {
         "current_price": 5.49,
@@ -560,8 +560,8 @@
         "weekly_change": 0.3
     },
     {
-        "current_price": 7.21,
-        "daily_change": 0.05,
+        "current_price": 7.22,
+        "daily_change": 0.06,
         "foil": false,
         "highest_price": 9.99,
         "lowest_price": 4.38,
@@ -569,13 +569,13 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Commander 2018",
-        "time_updated": "2019-06-06_11:00:36",
+        "time_updated": "2019-06-06_14:48:19",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Arixmethes+Slumbering+Isle#paper",
-        "weekly_change": 0.22
+        "weekly_change": 0.23
     },
     {
-        "current_price": 5.13,
-        "daily_change": 0.01,
+        "current_price": 5.1,
+        "daily_change": -0.02,
         "foil": false,
         "highest_price": 5.18,
         "lowest_price": 2.76,
@@ -583,13 +583,13 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Commander 2018",
-        "time_updated": "2019-06-06_11:00:36",
+        "time_updated": "2019-06-06_14:48:19",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Sol+Ring#paper",
-        "weekly_change": 0.01
+        "weekly_change": -0.02
     },
     {
-        "current_price": 5.74,
-        "daily_change": 0.01,
+        "current_price": 5.75,
+        "daily_change": 0.02,
         "foil": false,
         "highest_price": 5.97,
         "lowest_price": 3.74,
@@ -597,8 +597,8 @@
         "purchase_price": 0.0,
         "quantity": 1,
         "set": "Commander 2018",
-        "time_updated": "2019-06-06_11:00:36",
+        "time_updated": "2019-06-06_14:48:19",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Estrids+Invocation#paper",
-        "weekly_change": 0.0
+        "weekly_change": 0.01
     }
 ]

@@ -45,13 +45,13 @@ if os.path.exists(path):
 more = True
 while True:
     name = input("Please enter card name (case-sensitive): ")
-    set = input("Please enter card set (case-sensitive): ")
+    card_set = input("Please enter card set (case-sensitive): ")
     foil = input("Foil? (y/n): ").lower() in ["yes", "y"]
     purchase_price = float(input("Please enter approximate price paid for card (USD): "))
     quantity = int(input("Please enter the quantity of this card you own: "))
 
     card = {"name": name,
-            "set": set,
+            "set": card_set,
             "foil": foil,
             "purchase_price": purchase_price,
             "quantity": quantity}

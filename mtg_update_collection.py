@@ -3,8 +3,6 @@ import argparse
 import os
 import shutil
 
-# TODO: Make it harder to overwrite data / add a way to append to existing data
-
 # Parse arguments
 a = argparse.ArgumentParser()
 a.add_argument("-p", "--path", help="Full path to json file containing collection")

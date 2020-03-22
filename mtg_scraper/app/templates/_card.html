@@ -1,0 +1,12 @@
+<table class="table table-hover">
+    <tr>
+        <td width="70px">
+            <a href="{{ url_for('main.user', username=card.owner.username) }}">
+                <img src="{{ card.owner.avatar(70) }}" />
+            </a>
+        </td>
+        <td>
+            <span id="card{{ card.id }}">{{ card.body }}</span>
+        </td>
+    </tr>
+</table>

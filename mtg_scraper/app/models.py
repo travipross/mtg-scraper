@@ -9,6 +9,12 @@ followers = db.Table(
     db.Column('followed_id', db.Integer, db.ForeignKey('user.id'))
 )
 
+card_ownership = db.Table(
+    'card_ownership',
+    db.Column('user_id', db.Integer, db.ForeignKey('user.id')),
+    db.Column('card_id', db.Integer, db.ForeignKey('card.id'))
+)
+
 class Card(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, index=True)
@@ -16,7 +22,7 @@ class Card(db.Model):
     foil = db.Column(db.Boolean, default=False)
 
     def __repr__(self):
-        return '<Card {)>'.format(self.name)
+        return '<Card {}>'.format(self.name)
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -30,6 +36,7 @@ class User(UserMixin, db.Model):
         secondaryjoin=(followers.c.follower_id == id),
         backref=db.backref('followers', lazy='dynamic'), lazy='dynamic'
     )
+    cards = db.relationship("Card", secondary=card_ownership)
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)

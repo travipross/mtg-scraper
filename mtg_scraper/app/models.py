@@ -18,8 +18,24 @@ card_ownership = db.Table(
 class Card(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, index=True)
-    collection = db.Column(db.String, index=True)
+    setname = db.Column(db.String, index=True)
     foil = db.Column(db.Boolean, default=False)
+    url = db.Column(db.String, index=True)
+
+    def from_dict(self, data):
+        for key in ['name', 'setname', 'foil']:
+            setattr(self, key, data[key])
+        if 'url' in data:
+            self.url = data['url']
+
+    def to_dict(self):
+        data = {
+            'name': self.name,
+            'setname': self.setname,
+            'foil': self.foil,
+            'url': self.url
+        } 
+        return data
 
     def __repr__(self):
         return '<Card {}>'.format(self.name)

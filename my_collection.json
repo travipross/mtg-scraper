@@ -8,7 +8,7 @@
         "name": "Arcades, the Strategist",
         "purchase_price": null,
         "quantity": 1,
-        "set": "Core Set 2019",
+        "setname": "Core Set 2019",
         "time_updated": "2019-06-11_09:17:38",
         "url": "https://www.mtggoldfish.com/price//Core+Set+2019:Foil/Arcades+the+Strategist#paper",
         "weekly_change": 0.33
@@ -22,7 +22,7 @@
         "name": "Winter Orb",
         "purchase_price": 1.35,
         "quantity": 2,
-        "set": "Unlimited Edition",
+        "setname": "Unlimited Edition",
         "time_updated": "2019-06-11_09:17:38",
         "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Winter+Orb#paper",
         "weekly_change": -0.69
@@ -36,7 +36,7 @@
         "name": "Meekstone",
         "purchase_price": null,
         "quantity": 1,
-        "set": "Unlimited Edition",
+        "setname": "Unlimited Edition",
         "time_updated": "2019-06-11_09:17:38",
         "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Meekstone#paper",
         "weekly_change": -0.3
@@ -50,7 +50,7 @@
         "name": "Paradox Engine",
         "purchase_price": null,
         "quantity": 1,
-        "set": "Kaladesh Inventions",
+        "setname": "Kaladesh Inventions",
         "time_updated": "2019-06-11_09:17:38",
         "url": "https://www.mtggoldfish.com/price//Kaladesh+Inventions:Foil/Paradox+Engine#paper",
         "weekly_change": 14.44
@@ -64,7 +64,7 @@
         "name": "Archive Trap",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Zendikar",
+        "setname": "Zendikar",
         "time_updated": "2019-06-11_09:17:38",
         "url": "https://www.mtggoldfish.com/price//Zendikar:Foil/Archive+Trap#paper",
         "weekly_change": -0.18
@@ -78,7 +78,7 @@
         "name": "Bojuka Bog",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Worldwake",
+        "setname": "Worldwake",
         "time_updated": "2019-06-11_09:17:39",
         "url": "https://www.mtggoldfish.com/price//Worldwake:Foil/Bojuka+Bog#paper",
         "weekly_change": 0.81
@@ -92,7 +92,7 @@
         "name": "Counterspell",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Unlimited Edition",
+        "setname": "Unlimited Edition",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Unlimited+Edition/Counterspell#paper",
         "weekly_change": 0.47
@@ -106,7 +106,7 @@
         "name": "Ob Nixilis, Unshackled",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Magic 2015 Core Set",
+        "setname": "Magic 2015 Core Set",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Magic+2015+Core+Set/Ob+Nixilis+Unshackled#paper",
         "weekly_change": 0.0
@@ -120,7 +120,7 @@
         "name": "Auramancer's Guise",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Planar Chaos",
+        "setname": "Planar Chaos",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Planar+Chaos:Foil/Auramancers+Guise#paper",
         "weekly_change": -0.44
@@ -134,7 +134,7 @@
         "name": "Chromatic Star",
         "purchase_price": 0.0,
         "quantity": 4,
-        "set": "Time Spiral",
+        "setname": "Time Spiral",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Time+Spiral/Chromatic+Star#paper",
         "weekly_change": 0.0
@@ -148,7 +148,7 @@
         "name": "Smothering Tithe",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Ravnica Allegiance",
+        "setname": "Ravnica Allegiance",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Ravnica+Allegiance/Smothering+Tithe#paper",
         "weekly_change": -0.09
@@ -162,7 +162,7 @@
         "name": "Sunforger",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Commander 2016",
+        "setname": "Commander 2016",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Commander+2016/Sunforger#paper",
         "weekly_change": -0.16
@@ -176,7 +176,7 @@
         "name": "Nissa, Genesis Mage",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Hour of Devastation",
+        "setname": "Hour of Devastation",
         "time_updated": "2019-06-11_09:17:40",
         "url": "https://www.mtggoldfish.com/price//Hour+of+Devastation:Foil/Nissa+Genesis+Mage#paper",
         "weekly_change": -0.01
@@ -190,7 +190,7 @@
         "name": "Finale of Glory",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "War of the Spark",
+        "setname": "War of the Spark",
         "time_updated": "2019-06-11_09:17:41",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/Finale+of+Glory#paper",
         "weekly_change": -0.02
@@ -204,7 +204,7 @@
         "name": "God-Eternal Rhonas",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "War of the Spark",
+        "setname": "War of the Spark",
         "time_updated": "2019-06-11_09:17:41",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/God-Eternal+Rhonas#paper",
         "weekly_change": -0.32
@@ -218,7 +218,7 @@
         "name": "Ilharg, the Raze-Boar",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "War of the Spark",
+        "setname": "War of the Spark",
         "time_updated": "2019-06-11_09:17:41",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark/Ilharg+the+Raze-Boar#paper",
         "weekly_change": -0.19
@@ -232,7 +232,7 @@
         "name": "Master of Etherium",
         "purchase_price": 0.0,
         "quantity": 4,
-        "set": "Shards of Alara",
+        "setname": "Shards of Alara",
         "time_updated": "2019-06-11_09:17:42",
         "url": "https://www.mtggoldfish.com/price//Shards+of+Alara/Master+of+Etherium#paper",
         "weekly_change": 0.01
@@ -246,7 +246,7 @@
         "name": "Didgeridoo",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Homelands",
+        "setname": "Homelands",
         "time_updated": "2019-06-11_09:17:42",
         "url": "https://www.mtggoldfish.com/price//Homelands/Didgeridoo#paper",
         "weekly_change": 0.03
@@ -260,7 +260,7 @@
         "name": "Muddle the Mixture",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Ravnica City of Guilds",
+        "setname": "Ravnica City of Guilds",
         "time_updated": "2019-06-11_09:17:42",
         "url": "https://www.mtggoldfish.com/price//Ravnica+City+of+Guilds/Muddle+the+Mixture#paper",
         "weekly_change": 0.13
@@ -274,7 +274,7 @@
         "name": "Search for Azcanta",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Ixalan",
+        "setname": "Ixalan",
         "time_updated": "2019-06-11_09:17:42",
         "url": "https://www.mtggoldfish.com/price//Ixalan/Search+for+Azcanta#paper",
         "weekly_change": -0.18
@@ -288,7 +288,7 @@
         "name": "Spellseeker",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Battlebond",
+        "setname": "Battlebond",
         "time_updated": "2019-06-11_09:17:42",
         "url": "https://www.mtggoldfish.com/price//Battlebond/Spellseeker#paper",
         "weekly_change": 0.24
@@ -302,7 +302,7 @@
         "name": "Sliver Overlord",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Scourge",
+        "setname": "Scourge",
         "time_updated": "2019-06-11_09:17:43",
         "url": "https://www.mtggoldfish.com/price//Scourge/Sliver+Overlord#paper",
         "weekly_change": -2.92
@@ -316,7 +316,7 @@
         "name": "Manamorphose",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:43",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Manamorphose#paper",
         "weekly_change": 0.04
@@ -330,7 +330,7 @@
         "name": "Reki, the History of Kamigawa",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Saviors of Kamigawa",
+        "setname": "Saviors of Kamigawa",
         "time_updated": "2019-06-11_09:17:43",
         "url": "https://www.mtggoldfish.com/price//Saviors+of+Kamigawa/Reki+the+History+of+Kamigawa#paper",
         "weekly_change": 0.01
@@ -344,7 +344,7 @@
         "name": "Boartusk Liege",
         "purchase_price": 0.0,
         "quantity": 2,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:43",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Boartusk+Liege#paper",
         "weekly_change": 0.03
@@ -358,7 +358,7 @@
         "name": "Beseech the Queen",
         "purchase_price": 0.0,
         "quantity": 2,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:44",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Beseech+the+Queen#paper",
         "weekly_change": 0.03
@@ -372,7 +372,7 @@
         "name": "Elemental Mastery",
         "purchase_price": 0.0,
         "quantity": 2,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:44",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Elemental+Mastery#paper",
         "weekly_change": 0.02
@@ -386,7 +386,7 @@
         "name": "Memory Plunder",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:44",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor:Foil/Memory+Plunder#paper",
         "weekly_change": 0.0
@@ -400,7 +400,7 @@
         "name": "Wound Reflection",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:44",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Wound+Reflection#paper",
         "weekly_change": -0.05
@@ -414,7 +414,7 @@
         "name": "Sunken Ruins",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Shadowmoor",
+        "setname": "Shadowmoor",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Shadowmoor/Sunken+Ruins#paper",
         "weekly_change": 0.23
@@ -428,7 +428,7 @@
         "name": "Chromatic Lantern",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Guilds of Ravnica",
+        "setname": "Guilds of Ravnica",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Guilds+of+Ravnica/Chromatic+Lantern#paper",
         "weekly_change": -0.16
@@ -442,7 +442,7 @@
         "name": "Skullclamp",
         "purchase_price": 0.0,
         "quantity": 3,
-        "set": "Darksteel",
+        "setname": "Darksteel",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Darksteel/Skullclamp#paper",
         "weekly_change": -0.1
@@ -456,7 +456,7 @@
         "name": "Walking Ballista",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Aether Revolt",
+        "setname": "Aether Revolt",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Aether+Revolt/Walking+Ballista#paper",
         "weekly_change": 0.65
@@ -470,7 +470,7 @@
         "name": "Daretti, Scrap Savant",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Commander 2014",
+        "setname": "Commander 2014",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Commander+2014/Daretti+Scrap+Savant#paper",
         "weekly_change": 0.0
@@ -484,7 +484,7 @@
         "name": "Mechanized Production",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Aether Revolt",
+        "setname": "Aether Revolt",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Aether+Revolt/Mechanized+Production#paper",
         "weekly_change": 0.03
@@ -498,7 +498,7 @@
         "name": "Fabricate",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Magic 2010",
+        "setname": "Magic 2010",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//Magic+2010:Foil/Fabricate#paper",
         "weekly_change": 0.18
@@ -512,7 +512,7 @@
         "name": "Tezzeret, Master of the Bridge",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "War of the Spark",
+        "setname": "War of the Spark",
         "time_updated": "2019-06-11_09:17:45",
         "url": "https://www.mtggoldfish.com/price//War+of+the+Spark:Foil/Tezzeret+Master+of+the+Bridge#paper",
         "weekly_change": -0.35
@@ -526,7 +526,7 @@
         "name": "Mindbreak Trap",
         "purchase_price": 0.0,
         "quantity": 4,
-        "set": "Zendikar",
+        "setname": "Zendikar",
         "time_updated": "2019-06-11_09:17:46",
         "url": "https://www.mtggoldfish.com/price//Zendikar/Mindbreak+Trap#paper",
         "weekly_change": 0.04
@@ -540,7 +540,7 @@
         "name": "Vanquisher's Banner",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Ixalan",
+        "setname": "Ixalan",
         "time_updated": "2019-06-11_09:17:46",
         "url": "https://www.mtggoldfish.com/price//Ixalan/Vanquishers+Banner#paper",
         "weekly_change": 0.03
@@ -554,7 +554,7 @@
         "name": "Ashnod's Altar",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Fifth Edition",
+        "setname": "Fifth Edition",
         "time_updated": "2019-06-11_09:17:46",
         "url": "https://www.mtggoldfish.com/price//Fifth+Edition/Ashnods+Altar#paper",
         "weekly_change": 0.25
@@ -568,7 +568,7 @@
         "name": "Arixmethes, Slumbering Isle",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Commander 2018",
+        "setname": "Commander 2018",
         "time_updated": "2019-06-11_09:17:46",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Arixmethes+Slumbering+Isle#paper",
         "weekly_change": 0.21
@@ -582,7 +582,7 @@
         "name": "Sol Ring",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Commander 2018",
+        "setname": "Commander 2018",
         "time_updated": "2019-06-11_09:17:47",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Sol+Ring#paper",
         "weekly_change": -0.01
@@ -596,7 +596,7 @@
         "name": "Estrid's Invocation",
         "purchase_price": 0.0,
         "quantity": 1,
-        "set": "Commander 2018",
+        "setname": "Commander 2018",
         "time_updated": "2019-06-11_09:17:47",
         "url": "https://www.mtggoldfish.com/price//Commander+2018/Estrids+Invocation#paper",
         "weekly_change": -0.01

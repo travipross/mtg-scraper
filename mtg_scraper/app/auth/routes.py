@@ -3,7 +3,8 @@ from app import db
 from flask import render_template, url_for, request, flash, redirect
 from app.auth.forms import LoginForm, RegistrationForm
 from app.models import User
-from flask_login import current_user, logout_user, login_user
+from flask_login import current_user, logout_user, login_user, login_required
+from werkzeug.urls import url_parse
 
 @bp.route("/login", methods=['GET', 'POST'])
 def login():
@@ -22,7 +23,9 @@ def login():
         return redirect(next_page)
     return render_template('auth/login.html', title='Sign In', form=form)
 
+
 @bp.route('/logout')
+@login_required
 def logout():
     logout_user()
     return redirect(url_for('main.index'))

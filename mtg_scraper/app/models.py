@@ -2,6 +2,9 @@ from app import db, login
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from hashlib import md5
+from requests import request
+import re
+from bs4 import BeautifulSoup
 
 followers = db.Table(
     'followers',
@@ -21,12 +24,20 @@ class Card(db.Model):
     setname = db.Column(db.String, index=True)
     foil = db.Column(db.Boolean, default=False)
     url = db.Column(db.String, index=True)
+    img_url = db.Column(db.String)
+    purchase_price = db.Column(db.Float)
+    lowest_price = db.Column(db.Float)
+    highest_price = db.Column(db.Float)
+    current_price = db.Column(db.Float)
+    time_updated = db.Column(db.DateTime)
+    daily_change = db.Column(db.Float)
+    weekly_change = db.Column(db.Float)
 
     def from_dict(self, data):
         for key in ['name', 'setname', 'foil']:
             setattr(self, key, data[key])
-        if 'url' in data:
-            self.url = data['url']
+        for key in ['purchase_price', 'current_price', 'lowest_price', 'highest_price', 'time_updated', 'daily_change', 'weekly_change']:
+            setattr(self, key, data.get(key))
 
     def to_dict(self):
         data = {
@@ -36,6 +47,29 @@ class Card(db.Model):
             'url': self.url
         } 
         return data
+
+    @staticmethod
+    def _encode_for_url_without_escapes(card_name):
+        if card_name is None:
+            raise ValueError("Shit's fucked, yo")
+        _chars_to_remove = ["\'", ","]
+        name_url = re.sub(" ", "+", card_name)
+        name_url = re.sub("|".join(_chars_to_remove), "", name_url)
+        return name_url
+
+    def build_url(self):
+        name_url = self._encode_for_url_without_escapes(self.name) + "#paper"
+        set_url = self._encode_for_url_without_escapes(self.setname)
+        if self.foil:
+            set_url += ":Foil"
+        url = "/".join(["https://www.mtggoldfish.com/price", set_url, name_url])
+        r = request('get', url)
+        if r.status_code == 200:
+            self.url = url
+            soup = BeautifulSoup(r.text, 'html.parser')
+            img = soup.find("img", class_="price-card-image-image")
+            if img is not None:
+                self.img_url = img['src']
 
     def __repr__(self):
         return '<Card {}>'.format(self.name)

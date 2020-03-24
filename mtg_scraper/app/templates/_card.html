@@ -1,12 +1,12 @@
 <table class="table table-hover">
     <tr>
         <td width="70px">
-            <a href="{{ url_for('main.user', username=card.owner.username) }}">
-                <img src="{{ card.owner.avatar(70) }}" />
+            <a href="{{ url_for('main.user', username=user.username) }}">
+                <img src="{{ card.img_url }}" />
             </a>
         </td>
         <td>
-            <span id="card{{ card.id }}">{{ card.body }}</span>
+            <span id="card{{ card.id }}">{{ card.name }} | ${{ card.current_price}}</span>
         </td>
     </tr>
 </table>

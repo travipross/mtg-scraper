@@ -2,7 +2,7 @@ from app import db, login
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from hashlib import md5
-from requests import request
+import requests
 import re
 from bs4 import BeautifulSoup
 
@@ -32,6 +32,20 @@ class Card(db.Model):
     time_updated = db.Column(db.DateTime)
     daily_change = db.Column(db.Float)
     weekly_change = db.Column(db.Float)
+
+    def refresh(self):
+        r = requests.get(self.url)
+        soup = BeautifulSoup(r.text, "html.parser")
+        # print(img_elem['src'])
+        if self.foil:
+            c = soup.find('div', class_='price-card-image-bg')
+            self.img_url = re.findall('.*url\(\'(.*)\'\).*', c['style'])[0]
+        else:
+            img_elem = soup.find("img", class_="price-card-image-image")
+            print(img_elem)
+            self.img_url = img_elem['src']
+        self.current_price = float(soup.find('div', class_='price-box paper').find('div', class_='price-box-price').string)
+        db.session.commit()
 
     def from_dict(self, data):
         for key in ['name', 'setname', 'foil']:
@@ -97,6 +111,17 @@ class User(UserMixin, db.Model):
     def avatar(self, size):
         digest = md5(self.email.lower().encode('utf-8')).hexdigest()
         return 'https://www.gravatar.com/avatar/{}?d=identicon&s={}'.format(digest, size)
+
+    def follow(self, user):
+        if not self.is_following(user):
+            self.followed.append(user)
+
+    def unfollow(self, user):
+        if self.is_following(user):
+            self.followed.remove(user)
+
+    def is_following(self, user):
+        return self.followed.filter(followers.c.followed_id == user.id).count() > 0
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
